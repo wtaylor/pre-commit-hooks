@@ -2,4 +2,5 @@
   name: Lint Kustomize project
   description: This hook builds a kustomize project and passes it through kube-linter
   entry: scripts/kustomize-kube-linter.sh
-  files: '.*kustomization\.ya?ml$'
+  files: 'kustomization.yaml'
+  language: script
